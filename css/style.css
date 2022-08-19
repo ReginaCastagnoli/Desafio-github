@@ -47,6 +47,7 @@
 .header a:hover {
     color: #e0afa0;
     font-weight: bolder;
+    font-size:25px ;
 }
 
 /* FOOTER */
@@ -54,10 +55,19 @@
     background-color: #f4f3ee;
 }
 
+/* ANIMACIONES */
+.header a img:hover {
+    height: 180px;
+}
+
+.footer ul li a img:hover {
+    height: 120px;
+}
+
 /* TODOS LOS MAIN */
 main {
-    background-color: #bcb8b1;
     min-height: 70vh;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 /* MAIN IDEX */
